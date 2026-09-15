@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:'造景 · 商品影像工作室',description:'上传产品，选择风格，生成成套商品场景图。',icons:{icon:'/favicon.svg'}};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}
